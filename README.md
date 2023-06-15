@@ -19,47 +19,49 @@ Step 4: Get P, L, U matrix using lu()
 Step 5: Print L and U matrix
 
 ## Program:
-(i) To find the L and U matrix
 ```
-/*
-Program to find the L and U matrix.
+(i) To find the L and U matrix:
+
 Developed by: SANJAY S
 RegisterNumber: 212222230132
-
 import numpy as np
 from scipy.linalg import lu
-A = np.array(eval(input()))
+A=np.array(eval(input()))
 P,L,U=lu(A)
 print(L)
 print(U)
 
-*/
-```
-(ii) To find the LU Decomposition of a matrix
-```
-/*
-Program to find the LU Decomposition of a matrix.
-Developed by: SANJAY  S
-RegisterNumber: 212222230132
 
+
+
+
+
+
+
+(ii) To find the LU Decomposition of a matrix:
+
+Developed by: SANJAY S
+RegisterNumber: 212222230132
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
-A = eval(input())
-b = eval(input())
-lu, piv = lu_factor(A)
-x = lu_solve((lu, piv), b)
-print (x)
-*/
+A=eval(input())
+B=eval(input())
+lu,piv=lu_factor(A)
+x=lu_solve((lu,piv),B)
+print(x)
+
+
 ```
 
+
 ## Output:
-![image](https://github.com/22002102/LU-Decomposition/assets/119091638/77069f3c-00d6-457a-a215-3d17ad4d964c)
+
+![image](https://github.com/22002102/LU-Decomposition/assets/119091638/e81786f7-593d-496d-9aeb-d51ede785214)
 
 
 
 
-![image](https://github.com/22002102/LU-Decomposition/assets/119091638/10e2c6e8-1d7a-4bd8-95b5-2d7d4dd2361f)
-
+![image](https://github.com/22002102/LU-Decomposition/assets/119091638/f70c00a9-85d8-43c7-81cf-4b5174d758bc)
 
 
 ## Result:
